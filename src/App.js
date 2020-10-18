@@ -1,11 +1,12 @@
 import React from 'react';
-import { Button, Navbar, Nav, NavDropdown, Form, FormControl } from 'react-bootstrap';
-import logo from './logo.svg';
+import Routes from "./Routes";
+import { Button, Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
+    <div className="App container">
 <Navbar bg="light" expand="lg">
   <Navbar.Brand href="#home">Warren T. Ferrell Jewell</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -21,12 +22,10 @@ function App() {
       </NavDropdown>
       <Nav.Link href="#link">FAQ</Nav.Link>
     </Nav>
-    <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-success">Search</Button>
-    </Form>
   </Navbar.Collapse>
 </Navbar>
+<Routes />
+</div>
   );
 }
 
