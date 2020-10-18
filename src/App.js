@@ -12,15 +12,17 @@ function App() {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#link">About (soon)</Nav.Link>
-      <Nav.Link href="#link">Blog (soon)</Nav.Link>
+      <Nav.Link href="/">Home</Nav.Link>
+      <Nav.Link href="/About">About (soon)</Nav.Link>
+      <Nav.Link href="/Blog">Blog (soon)</Nav.Link>
       <NavDropdown title="Projects" id="basic-nav-dropdown">
-      <NavDropdown.Item href="#action/3.1">Computational Donations - coming soon</NavDropdown.Item>
-      <NavDropdown.Item href="#action/3.2">Lights Out - coming soon</NavDropdown.Item>
-      <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+        <NavDropdown.Item href="/projects/bitcoinmining">Computational Donations - coming soon</NavDropdown.Item>
+        <NavDropdown.Item href="/projects/lightsout">Lights Out - coming soon</NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link href="#link">FAQ</Nav.Link>
+      <Nav.Link href="/faq">FAQ</Nav.Link>
+      <Nav pullRight>
+        <Nav.Link href="http://www.linkedin.com/in/warrenferrell">Linkedin</Nav.Link>
+      </Nav>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
