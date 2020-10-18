@@ -6,7 +6,7 @@ export default function AboutPage() {
     <div className="Home">
       <div className="lander">
         <h1>About</h1>
-        <p>Simple</p>
+        <p></p>
       </div>
     </div>
   );
