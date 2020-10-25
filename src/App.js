@@ -10,13 +10,13 @@ function App() {
     <div className="App container">
       <Navbar bg="light" expand="lg">
           <Link to="/" className="navbar-brand">
-            Warren T. Ferrell Jewell
+            wtfj.dev
           </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto" pullRight="true">
-            <Link to="/about" className="nav-link">
-              About (soon)
+            <Link to="/faq" className="nav-link">
+              About
             </Link>
             <Link to="/blog" className="nav-link">
               Blog (soon)
