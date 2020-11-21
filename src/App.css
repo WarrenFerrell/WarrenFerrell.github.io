@@ -5,3 +5,12 @@
 .App .navbar-brand {
   font-weight: bold;
 }
+
+/*  .navbar-brand {
+  float: left !important;
+  margin-top: -15px !important;
+} */
+
+/* .navbar-brand>img {
+  padding: 10px 0px;
+} */ 
